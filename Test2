@@ -17,7 +17,7 @@ local GodX = Instance.new("TextButton")
 underdogX.Name = "underdogX"
 underdogX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 underdogX.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-underdogX.ResetOnSpawn = false
+underdogX.ResetOnSpawn = true
 
 mainFrameX.Name = "mainFrameX"
 mainFrameX.Parent = underdogX
