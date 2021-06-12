@@ -17,6 +17,7 @@ local GodX = Instance.new("TextButton")
 underdogX.Name = "underdogX"
 underdogX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 underdogX.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+underdogX.ResetOnSpawn = false
 
 mainFrameX.Name = "mainFrameX"
 mainFrameX.Parent = underdogX
@@ -144,7 +145,7 @@ GodX.TextWrapped = true
 
 -- Scripts:
 
-local function GAKANJM_fake_script() -- mainFrameX.XFLYX 
+local function YCTOZK_fake_script() -- mainFrameX.XFLYX 
 	local script = Instance.new('LocalScript', mainFrameX)
 
 	--Press F to fly
@@ -230,8 +231,8 @@ local function GAKANJM_fake_script() -- mainFrameX.XFLYX
 			potato = 1
 	end end end)
 end
-coroutine.wrap(GAKANJM_fake_script)()
-local function ILSQ_fake_script() -- WalkspeedX.LocalScript 
+coroutine.wrap(YCTOZK_fake_script)()
+local function LAEH_fake_script() -- WalkspeedX.LocalScript 
 	local script = Instance.new('LocalScript', WalkspeedX)
 
 	local Speed = 66 
@@ -241,8 +242,8 @@ local function ILSQ_fake_script() -- WalkspeedX.LocalScript
 	end)
 	
 end
-coroutine.wrap(ILSQ_fake_script)()
-local function GKBI_fake_script() -- WalkspeedX_2.LocalScript 
+coroutine.wrap(LAEH_fake_script)()
+local function KOLK_fake_script() -- WalkspeedX_2.LocalScript 
 	local script = Instance.new('LocalScript', WalkspeedX_2)
 
 	local Speed = 16 
@@ -252,8 +253,8 @@ local function GKBI_fake_script() -- WalkspeedX_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(GKBI_fake_script)()
-local function NFOYULN_fake_script() -- mainFrameX.InfoX 
+coroutine.wrap(KOLK_fake_script)()
+local function CQVIWNN_fake_script() -- mainFrameX.InfoX 
 	local script = Instance.new('Script', mainFrameX)
 
 	print("Thanks for using underdogX")
@@ -261,8 +262,8 @@ local function NFOYULN_fake_script() -- mainFrameX.InfoX
 	warn("You're using underdogX:Basic Edition, features may be limited.")
 	
 end
-coroutine.wrap(NFOYULN_fake_script)()
-local function HAMH_fake_script() -- JumpPowerX.LocalScript 
+coroutine.wrap(CQVIWNN_fake_script)()
+local function EHJKUUN_fake_script() -- JumpPowerX.LocalScript 
 	local script = Instance.new('LocalScript', JumpPowerX)
 
 	local JumpPower = 200 
@@ -272,8 +273,8 @@ local function HAMH_fake_script() -- JumpPowerX.LocalScript
 	end)
 	
 end
-coroutine.wrap(HAMH_fake_script)()
-local function AWXKGU_fake_script() -- JumpPowerX_2.LocalScript 
+coroutine.wrap(EHJKUUN_fake_script)()
+local function QWJZA_fake_script() -- JumpPowerX_2.LocalScript 
 	local script = Instance.new('LocalScript', JumpPowerX_2)
 
 	local JumpPower = 50 
@@ -283,8 +284,8 @@ local function AWXKGU_fake_script() -- JumpPowerX_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(AWXKGU_fake_script)()
-local function YDKXR_fake_script() -- GodX.LocalScript 
+coroutine.wrap(QWJZA_fake_script)()
+local function TANU_fake_script() -- GodX.LocalScript 
 	local script = Instance.new('LocalScript', GodX)
 
 	local MaxHealth = 1000000 
@@ -294,8 +295,8 @@ local function YDKXR_fake_script() -- GodX.LocalScript
 	end)
 	
 end
-coroutine.wrap(YDKXR_fake_script)()
-local function VEZKBE_fake_script() -- underdogX.X 
+coroutine.wrap(TANU_fake_script)()
+local function ANMGG_fake_script() -- underdogX.X 
 	local script = Instance.new('Script', underdogX)
 
 	mainFrameX = script.Parent.mainFrameX
@@ -303,4 +304,4 @@ local function VEZKBE_fake_script() -- underdogX.X
 	mainFrameX.Active = true
 	mainFrameX.Selectable = true
 end
-coroutine.wrap(VEZKBE_fake_script)()
+coroutine.wrap(ANMGG_fake_script)()
