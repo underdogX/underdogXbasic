@@ -1,5 +1,4 @@
 --By: underdogX
-underdogX.ResetOnSpawn = true
 
 local underdogX = Instance.new("ScreenGui")
 local mainFrameX = Instance.new("Frame")
