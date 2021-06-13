@@ -1,0 +1,541 @@
+--By: underdogX
+
+local underdogX = Instance.new("ScreenGui")
+local mainFrameX = Instance.new("Frame")
+local TitleX = Instance.new("TextLabel")
+local FlyX = Instance.new("TextLabel")
+local WalkspeedX = Instance.new("TextButton")
+local WalkspeedX_2 = Instance.new("TextButton")
+local EditionX = Instance.new("TextLabel")
+local VersionX = Instance.new("TextLabel")
+local JumpX = Instance.new("TextButton")
+local JumpX_2 = Instance.new("TextButton")
+local TrollX = Instance.new("TextButton")
+local StopTrollX = Instance.new("TextButton")
+local InfoX = Instance.new("TextButton")
+local shittygui = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+
+--Properties:
+
+underdogX.Name = "underdogX"
+underdogX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+underdogX.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+mainFrameX.Name = "mainFrameX"
+mainFrameX.Parent = underdogX
+mainFrameX.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+mainFrameX.BorderColor3 = Color3.fromRGB(25, 25, 25)
+mainFrameX.Position = UDim2.new(-4.70224641e-08, 0, 0.459459424, 0)
+mainFrameX.Size = UDim2.new(0, 564, 0, 359)
+mainFrameX.Visible = false
+
+TitleX.Name = "TitleX"
+TitleX.Parent = mainFrameX
+TitleX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TitleX.BackgroundTransparency = 1.000
+TitleX.Position = UDim2.new(0.670212686, 0, 0.885793865, 0)
+TitleX.Size = UDim2.new(0, 209, 0, 41)
+TitleX.Font = Enum.Font.SourceSansLight
+TitleX.Text = "underdogX"
+TitleX.TextColor3 = Color3.fromRGB(255, 255, 255)
+TitleX.TextScaled = true
+TitleX.TextSize = 14.000
+TitleX.TextWrapped = true
+
+FlyX.Name = "FlyX"
+FlyX.Parent = mainFrameX
+FlyX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlyX.BackgroundTransparency = 1.000
+FlyX.Position = UDim2.new(0.0195034742, 0, 0.0473537594, 0)
+FlyX.Size = UDim2.new(0, 77, 0, 48)
+FlyX.Font = Enum.Font.SourceSansLight
+FlyX.Text = "Fly(X)"
+FlyX.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlyX.TextScaled = true
+FlyX.TextSize = 14.000
+FlyX.TextWrapped = true
+
+WalkspeedX.Name = "WalkspeedX+"
+WalkspeedX.Parent = mainFrameX
+WalkspeedX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WalkspeedX.BackgroundTransparency = 1.000
+WalkspeedX.Position = UDim2.new(0.0177304968, 0, 0.236768812, 0)
+WalkspeedX.Size = UDim2.new(0, 77, 0, 60)
+WalkspeedX.Font = Enum.Font.SourceSansLight
+WalkspeedX.Text = "Speed+"
+WalkspeedX.TextColor3 = Color3.fromRGB(255, 255, 255)
+WalkspeedX.TextScaled = true
+WalkspeedX.TextSize = 14.000
+WalkspeedX.TextWrapped = true
+
+WalkspeedX_2.Name = "WalkspeedX-"
+WalkspeedX_2.Parent = mainFrameX
+WalkspeedX_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WalkspeedX_2.BackgroundTransparency = 1.000
+WalkspeedX_2.Position = UDim2.new(0.0177304968, 0, 0.415041804, 0)
+WalkspeedX_2.Size = UDim2.new(0, 77, 0, 60)
+WalkspeedX_2.Font = Enum.Font.SourceSansLight
+WalkspeedX_2.Text = "Speed-"
+WalkspeedX_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+WalkspeedX_2.TextScaled = true
+WalkspeedX_2.TextSize = 14.000
+WalkspeedX_2.TextWrapped = true
+
+EditionX.Name = "EditionX"
+EditionX.Parent = mainFrameX
+EditionX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EditionX.BackgroundTransparency = 1.000
+EditionX.Position = UDim2.new(0.888297737, 0, 0.832869053, 0)
+EditionX.Size = UDim2.new(0, 63, 0, 31)
+EditionX.Font = Enum.Font.SourceSansLight
+EditionX.Text = "Basic"
+EditionX.TextColor3 = Color3.fromRGB(12, 255, 0)
+EditionX.TextScaled = true
+EditionX.TextSize = 14.000
+EditionX.TextWrapped = true
+
+VersionX.Name = "VersionX"
+VersionX.Parent = mainFrameX
+VersionX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VersionX.BackgroundTransparency = 1.000
+VersionX.Position = UDim2.new(0.888297737, 0, 0, 0)
+VersionX.Size = UDim2.new(0, 63, 0, 34)
+VersionX.Font = Enum.Font.SourceSansLight
+VersionX.Text = "1.0.0"
+VersionX.TextColor3 = Color3.fromRGB(255, 255, 255)
+VersionX.TextScaled = true
+VersionX.TextSize = 14.000
+VersionX.TextWrapped = true
+
+JumpX.Name = "JumpX+"
+JumpX.Parent = mainFrameX
+JumpX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JumpX.BackgroundTransparency = 1.000
+JumpX.Position = UDim2.new(0.0177304968, 0, 0.582172751, 0)
+JumpX.Size = UDim2.new(0, 77, 0, 60)
+JumpX.Font = Enum.Font.SourceSansLight
+JumpX.Text = "Jump+"
+JumpX.TextColor3 = Color3.fromRGB(255, 255, 255)
+JumpX.TextScaled = true
+JumpX.TextSize = 14.000
+JumpX.TextWrapped = true
+
+JumpX_2.Name = "JumpX-"
+JumpX_2.Parent = mainFrameX
+JumpX_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JumpX_2.BackgroundTransparency = 1.000
+JumpX_2.Position = UDim2.new(0.0177304968, 0, 0.752089202, 0)
+JumpX_2.Size = UDim2.new(0, 77, 0, 60)
+JumpX_2.Font = Enum.Font.SourceSansLight
+JumpX_2.Text = "Jump-"
+JumpX_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+JumpX_2.TextScaled = true
+JumpX_2.TextSize = 14.000
+JumpX_2.TextWrapped = true
+
+TrollX.Name = "TrollX"
+TrollX.Parent = mainFrameX
+TrollX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TrollX.BackgroundTransparency = 1.000
+TrollX.Position = UDim2.new(0.822695076, 0, 0.181058496, 0)
+TrollX.Size = UDim2.new(0, 77, 0, 60)
+TrollX.Font = Enum.Font.SourceSansLight
+TrollX.Text = "Troll"
+TrollX.TextColor3 = Color3.fromRGB(255, 255, 255)
+TrollX.TextScaled = true
+TrollX.TextSize = 14.000
+TrollX.TextWrapped = true
+
+StopTrollX.Name = "StopTrollX"
+StopTrollX.Parent = mainFrameX
+StopTrollX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StopTrollX.BackgroundTransparency = 1.000
+StopTrollX.Position = UDim2.new(0.783687949, 0, 0.403899729, 0)
+StopTrollX.Size = UDim2.new(0, 121, 0, 60)
+StopTrollX.Font = Enum.Font.SourceSansLight
+StopTrollX.Text = "Troll Stop (Cant Undo)"
+StopTrollX.TextColor3 = Color3.fromRGB(255, 255, 255)
+StopTrollX.TextScaled = true
+StopTrollX.TextSize = 14.000
+StopTrollX.TextWrapped = true
+
+InfoX.Name = "InfoX"
+InfoX.Parent = mainFrameX
+InfoX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfoX.BackgroundTransparency = 1.000
+InfoX.Position = UDim2.new(0.803191543, 0, 0.61002785, 0)
+InfoX.Size = UDim2.new(0, 99, 0, 61)
+InfoX.Font = Enum.Font.SourceSansLight
+InfoX.Text = "Info"
+InfoX.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfoX.TextScaled = true
+InfoX.TextSize = 14.000
+InfoX.TextWrapped = true
+
+shittygui.Name = "shittygui"
+shittygui.Parent = underdogX
+shittygui.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+shittygui.BorderColor3 = Color3.fromRGB(25, 25, 25)
+shittygui.Position = UDim2.new(0.308936834, 0, 0.13636364, 0)
+shittygui.Size = UDim2.new(0, 495, 0, 572)
+
+TextLabel.Parent = shittygui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.161616176, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 363, 0, 61)
+TextLabel.Font = Enum.Font.SourceSansLight
+TextLabel.Text = "underdogX: Basic Edition"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = shittygui
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.133333355, 0, 0.16083917, 0)
+TextLabel_2.Size = UDim2.new(0, 363, 0, 61)
+TextLabel_2.Font = Enum.Font.SourceSansLight
+TextLabel_2.Text = "Thank you for using my shitty, useless script. updates coming soon"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = shittygui
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.121212155, 0, 0.662587404, 0)
+TextLabel_3.Size = UDim2.new(0, 363, 0, 61)
+TextLabel_3.Font = Enum.Font.SourceSansLight
+TextLabel_3.Text = "Loading:"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = shittygui
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.121212155, 0, 0.433566421, 0)
+TextLabel_4.Size = UDim2.new(0, 363, 0, 61)
+TextLabel_4.Font = Enum.Font.SourceSansLight
+TextLabel_4.Text = "()"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+-- Scripts:
+
+local function ZLZH_fake_script() -- mainFrameX.XFLYX 
+	local script = Instance.new('LocalScript', mainFrameX)
+
+	--Press F to fly
+	--Made by Xceterbond
+	lplayer = game:GetService("Players").LocalPlayer
+	local Mouse = lplayer:GetMouse()
+	flying = false
+	local potato = 1
+	Mouse.KeyDown:connect(function(key)
+	    if key == "x" then
+		if potato == 1 then
+		    repeat wait() until lplayer and lplayer.Character and lplayer.Character:FindFirstChild('HumanoidRootPart') and lplayer.Character:FindFirstChild('Humanoid')
+	    repeat wait() until Mouse
+	    speedfly = 5
+	   
+	    local T = lplayer.Character.HumanoidRootPart
+	    local CONTROL = {X = 0, B = 0, L = 0, R = 0}
+	    local lCONTROL = {X = 0, B = 0, L = 0, R = 0}
+	    local SPEED = speedget
+	   
+	    local function fly()
+	        flying = true
+	        local BG = Instance.new('BodyGyro', T)
+	        local BV = Instance.new('BodyVelocity', T)
+	        BG.P = 9e4
+	        BG.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+	        BG.cframe = T.CFrame
+	        BV.velocity = Vector3.new(0, 0.1, 0)
+	        BV.maxForce = Vector3.new(9e9, 9e9, 9e9)
+	        spawn(function()
+	        repeat wait()
+	        lplayer.Character.Humanoid.PlatformStand = true
+	        if CONTROL.L + CONTROL.R ~= 0 or CONTROL.X + CONTROL.B ~= 0 then
+	        SPEED = 50
+	        elseif not (CONTROL.L + CONTROL.R ~= 0 or CONTROL.X + CONTROL.B ~= 0) and SPEED ~= 0 then
+	        SPEED = 0
+	        end
+	        if (CONTROL.L + CONTROL.R) ~= 0 or (CONTROL.X + CONTROL.B) ~= 0 then
+	        BV.velocity = ((workspace.CurrentCamera.CoordinateFrame.lookVector * (CONTROL.X + CONTROL.B)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(CONTROL.L + CONTROL.R, (CONTROL.X + CONTROL.B) * 0.2, 0).p) - workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+	        lCONTROL = {X = CONTROL.X, B = CONTROL.B, L = CONTROL.L, R = CONTROL.R}
+	        elseif (CONTROL.L + CONTROL.R) == 0 and (CONTROL.X + CONTROL.B) == 0 and SPEED ~= 0 then
+	        BV.velocity = ((workspace.CurrentCamera.CoordinateFrame.lookVector * (lCONTROL.X + lCONTROL.B)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(lCONTROL.L + lCONTROL.R, (lCONTROL.X + lCONTROL.B) * 0.2, 0).p) - workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+	        else
+	        BV.velocity = Vector3.new(0, 0.1, 0)
+	        end
+	        BG.cframe = workspace.CurrentCamera.CoordinateFrame
+	                until not flying
+	                CONTROL = {X = 0, B = 0, L = 0, R = 0}
+	                lCONTROL = {X = 0, B = 0, L = 0, R = 0}
+	                SPEED = 0
+	                BG:destroy()
+	                BV:destroy()
+	                lplayer.Character.Humanoid.PlatformStand = false
+	            end)
+	        end
+	    Mouse.KeyDown:connect(function(KEY)
+	        if KEY:lower() == 'w' then
+	            CONTROL.X = speedfly
+	        elseif KEY:lower() == 's' then
+	            CONTROL.B = -speedfly
+	        elseif KEY:lower() == 'a' then
+	            CONTROL.L = -speedfly
+	        elseif KEY:lower() == 'd' then
+	            CONTROL.R = speedfly
+	        end
+	    end)
+	    Mouse.KeyUp:connect(function(KEY)
+	        if KEY:lower() == 'w' then
+	            CONTROL.X = 0
+	        elseif KEY:lower() == 's' then
+	            CONTROL.B = 0
+	        elseif KEY:lower() == 'a' then
+	            CONTROL.L = 0
+	        elseif KEY:lower() == 'd' then
+	            CONTROL.R = 0
+	        end
+	    end)
+	potato = 0
+	    fly()
+	    else 
+			flying = false
+	        lplayer.Character.Humanoid.PlatformStand = false
+			potato = 1
+	end end end)
+end
+coroutine.wrap(ZLZH_fake_script)()
+local function YWAXM_fake_script() -- WalkspeedX.LocalScript 
+	local script = Instance.new('LocalScript', WalkspeedX)
+
+	local Speed = 66
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Speed)
+	end)
+	
+end
+coroutine.wrap(YWAXM_fake_script)()
+local function EUJAA_fake_script() -- WalkspeedX.Notifaction 
+	local script = Instance.new('LocalScript', WalkspeedX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+	    Title = "underdogX:Basic";
+	    Text = "Speed+ Turned On";
+	    Icon = "";
+	    Duration = "1";
+		})
+	end)
+	
+end
+coroutine.wrap(EUJAA_fake_script)()
+local function FCKAA_fake_script() -- WalkspeedX_2.LocalScript 
+	local script = Instance.new('LocalScript', WalkspeedX_2)
+
+	local Speed = 16
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Speed)
+	end)
+	
+end
+coroutine.wrap(FCKAA_fake_script)()
+local function QTUKU_fake_script() -- WalkspeedX_2.Notifaction 
+	local script = Instance.new('LocalScript', WalkspeedX_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+	    Title = "underdogX:Basic";
+	    Text = "Speed+ Turned Off";
+	    Icon = "";
+	    Duration = "1";
+		})
+	end)
+	
+end
+coroutine.wrap(QTUKU_fake_script)()
+local function DRBQQF_fake_script() -- JumpX.Notifaction 
+	local script = Instance.new('LocalScript', JumpX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+	    Title = "underdogX:Basic";
+	    Text = "Jump+ Turned On";
+	    Icon = "";
+	    Duration = "1";
+		})
+	end)
+	
+end
+coroutine.wrap(DRBQQF_fake_script)()
+local function GTXB_fake_script() -- JumpX.LocalScript 
+	local script = Instance.new('LocalScript', JumpX)
+
+	local JumpPower = 200
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = (JumpPower)
+	end)
+	
+end
+coroutine.wrap(GTXB_fake_script)()
+local function KQYGGRZ_fake_script() -- JumpX_2.LocalScript 
+	local script = Instance.new('LocalScript', JumpX_2)
+
+	local JumpPower = 50
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = (JumpPower)
+	end)
+	
+end
+coroutine.wrap(KQYGGRZ_fake_script)()
+local function RSQM_fake_script() -- JumpX_2.Notifaction 
+	local script = Instance.new('LocalScript', JumpX_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+	    Title = "underdogX:Basic";
+	    Text = "Jump+ Turned Off";
+	    Icon = "";
+	    Duration = "1";
+		})
+	end)
+	
+end
+coroutine.wrap(RSQM_fake_script)()
+local function JFXPB_fake_script() -- TrollX.Notifaction 
+	local script = Instance.new('LocalScript', TrollX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+	    Title = "underdogX:Basic";
+	    Text = "we do a little trolling, press F9";
+			Icon = "rbxassetid://6180399057";
+	    Duration = "1";
+		})
+	end)
+	
+end
+coroutine.wrap(JFXPB_fake_script)()
+local function FSZQUAQ_fake_script() -- TrollX.LocalScript 
+	local script = Instance.new('LocalScript', TrollX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		warn("THIS MIGHT GET A LITTLE LAGGY")
+		wait(5)
+		while true do
+			warn("WE DO A LITTLE TROLLING")
+			warn("THE SCRIPT INCIDENT")
+		wait()
+		end	
+	end)
+end
+coroutine.wrap(FSZQUAQ_fake_script)()
+local function PFWZQC_fake_script() -- StopTrollX.Notifaction 
+	local script = Instance.new('LocalScript', StopTrollX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+	    Title = "underdogX:Basic";
+	    Text = "Computer couldnt handle it?";
+			Icon = "rbxassetid://128211458";
+	    Duration = "1";
+		})
+	end)
+	
+end
+coroutine.wrap(PFWZQC_fake_script)()
+local function GUCYDLP_fake_script() -- StopTrollX.LocalScript 
+	local script = Instance.new('LocalScript', StopTrollX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.TrollX.LocalScript.Disabled = true
+		end)
+end
+coroutine.wrap(GUCYDLP_fake_script)()
+local function BLOMLWB_fake_script() -- InfoX.Notifaction 
+	local script = Instance.new('LocalScript', InfoX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {
+	    Title = "underdogX:Basic";
+	    Text = "This is a simple fucking script used for simple games, nothing advanced.";
+			Icon = "";
+	    Duration = "1";
+		})
+	end)
+	
+end
+coroutine.wrap(BLOMLWB_fake_script)()
+local function BXDLL_fake_script() -- mainFrameX.wait(5) 
+	local script = Instance.new('Script', mainFrameX)
+
+	wait(5)
+	script.Parent.Visible = true
+	
+end
+coroutine.wrap(BXDLL_fake_script)()
+local function EKLLYS_fake_script() -- underdogX.X 
+	local script = Instance.new('Script', underdogX)
+
+	mainFrameX = script.Parent.mainFrameX
+	mainFrameX.Draggable = true
+	mainFrameX.Active = true
+	mainFrameX.Selectable = true
+end
+coroutine.wrap(EKLLYS_fake_script)()
+local function SOQDQ_fake_script() -- TextLabel_3.Changing text 
+	local script = Instance.new('Script', TextLabel_3)
+
+	while true do
+	script.Parent.Text = "Loading: 5 seconds left"
+	wait(1)
+	script.Parent.Text = "Loading: 4 seconds left"
+	wait(1)
+	script.Parent.Text = "Loading: 3 seconds left"
+	wait(1)
+	script.Parent.Text = "Loading: 2 seconds left"
+	wait(1)
+	script.Parent.Text = "Loading: 1 seconds left"
+	wait(1)
+	end 
+end
+coroutine.wrap(SOQDQ_fake_script)()
+local function KJNVSY_fake_script() -- shittygui.wait(5) 
+	local script = Instance.new('Script', shittygui)
+
+	wait(5)
+	script.Parent.Visible = false
+	
+end
+coroutine.wrap(KJNVSY_fake_script)()
+local function PUQJV_fake_script() -- TextLabel_4.Changing text 
+	local script = Instance.new('Script', TextLabel_4)
+
+	while true do
+	script.Parent.Text = "this is a fake and useless loading screen, just like the script"
+	wait(2)
+	script.Parent.Text = "hopefully youre using synapse x"
+	wait(2)
+	script.Parent.Text = "this didnt take long to make"
+	wait(2)
+	end 
+end
+coroutine.wrap(PUQJV_fake_script)()
